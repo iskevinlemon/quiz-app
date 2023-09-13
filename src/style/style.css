@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+html{
+    scroll-behavior: smooth !important;
+}
+body{
+    font-family: 'Inter', sans-serif !important;
+    overflow-x: hidden !important;
+    background-color: #ebf3ff !important;
+}
+.card{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+    width: auto !important;
+    overflow: auto;
+}
+.question-card{
+    width: 750px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+    margin-top: 5vh !important;
+}
+.centered{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+}
+iframe{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+}
+.btn{
+    /* width: 750px !important; */
+    text-transform: none !important;
+    font-size: 16px !important;
+}
+.screen-unsupported-text{
+    display: none;
+}
+@media only screen and (max-width: 992px) {
+    .workarea{
+        display: none !important;
+    }
+    .screen-unsupported-text{
+        margin-top: 30vh;
+        display: block !important;
+    }
+}
+.form-check-label{
+    font-size: 18px !important;
+}
+.float-right{
+    float: right !important;
+}
+.quiz-completed-card{
+    margin-top: 5vh !important;
+    width: 500px !important;
+}
